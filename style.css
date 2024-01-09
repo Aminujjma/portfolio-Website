@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 209, 233);
+}
+ #headerC{
+           background-color: #19013f;
+           /* height:100px; */
+         }
+#Portfolio-id{
+    color: rgb(239, 238, 241);
+    
+}
+#comp{
+    color: white;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    position: relative;
+    height:100vh;
+    width: 100vw; 
+}
+#page1>img{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 77%;
+    margin-top: 20px ;
+    height:30%; 
+    object-position: top;
+
+
+}
+#text{
+    padding: 100px 40px;
+    position: relative;
+    top: 18%;
+    left: 5%;
+    height: 55% ;
+    width: 75%;
+    scale:1.1 ;
+}
+#button{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 17%;
+
+}
+
+.btn :hover{
+    color: white;
+}
+#button>a:hover{
+    color: white;
+    background-color: white;
+}
+#page2{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #aab9e7;
+}
+#right{
+    width: 60%;
+}
+#left{
+    position: absolute;
+    right: 5%;
+    height: 90%;
+    top: 50%;
+    transform: translateY(-40%);
+    width: 35%;
+}
+#page3{
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+}
+#text4{
+   margin: 2%;
+}
+#text4>h1{
+    align-items: center;
+}
+.project1{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.project2{
+    position:absolute;
+    right: 10%;
+    height: 70%;
+    transform: translateY(-60%);
+}
+.end{
+    position: relative;
+    background-color: rgb(191, 230, 230);
+    text-align: center;
+}
+.contact-me p{
+    font-size: 40px;
+    padding-top: 10%;
+}
+.contact-me h2{
+    font-size: 50px;
+}
+.collab{
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    display: block;
+    font-weight: bolder;
+    margin: 50px auto;
+    padding: 20px 0;
+}
+.gmail{
+    border-radius: 50%;
+}
+.leetcode{
+    border-radius: 20%;
+}
